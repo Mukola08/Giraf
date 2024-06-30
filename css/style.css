@@ -224,16 +224,16 @@ margin-bottom: 64px;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid var(--text-color);
 
 }
 
 .border-text {
-  color: var(--text-color);
+ color: var(--text-color);
 font-size: 34px;
 font-weight: 300;
 line-height: 130%;
-  padding: 16px;
+  padding: 16px 20px;
    border-radius: 66px;
   border: 2px solid var(--text-color);
   margin-top: 10px;
@@ -280,7 +280,6 @@ margin-top: 64px;
 margin-left: 266px;
 margin-right: 266px;
 }
-
 /* Секція навчання */
 
 .leard {
@@ -376,7 +375,6 @@ height: 93px;
 
 .title-span {
   color: var(--text-color);
-font-family: "Bookman Old Style";
 font-size: 34px;
 font-weight: 300;
 line-height: 130%; 

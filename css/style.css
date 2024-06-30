@@ -15,7 +15,7 @@
   padding-right: 10px;
   padding-left: 10px;
   margin: 0 auto;
-  /* outline: 1px solid red ; */
+  outline: 1px solid red ;
 }
 
 img {
@@ -380,6 +380,173 @@ font-weight: 300;
 line-height: 130%; 
 }
 
+/* Секція подорожі */
+.travels {
+  background-color: var(--accent-color);
+  padding-top: 112px;
+  padding-bottom: 120px; 
+}
+
+.travel-box {
+  display: flex;
+  gap: 318px;
+}
+
+.travels-text {
+  color: var(--text-color);
+font-size: 26px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.travels-title {
+  color: var(--text-color);
+font-size: 50px;
+font-weight: 300;
+line-height: 130%; 
+width: 614px;
+margin-bottom: 48px;
+}
+
+.travel-text {
+  color: var(--text-color);
+font-size: 34px;
+font-weight: 300;
+line-height: 130%; 
+}
+
+.travel-desk {
+  color: var(--text-color);
+font-size: 34px;
+font-weight: 300;
+line-height: 130%; 
+margin-top: 56px;
+margin-bottom: 48px;
+}
+
+.travels-list {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.travels-img {
+  border-radius: 14px;
+}
+
+.trav-photo {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.trav-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.img-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 711px;
+  height: 608px;
+}
+/* Команда */
 .comand {
+  padding-top: 112px;
+  padding-bottom: 120px;
+  text-align: center;
+}
+
+.comand-box {
+  display: flex;
+}
+
+.section-text {
+  color: var(--accent-color);
+font-size: 26px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+width: 209px;
+}
+
+.section-title {
+  color: var(--text-color);
+font-size: 50px;
+font-weight: 300;
+line-height: 130%; 
+width: 1089px;
+margin-left: 87px;
+margin-bottom: 64px;
+}
+
+.section-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.comand-btn {
+margin-left: 64px;
+}
+
+.comand-btn:nth-child(1) {
+margin-right: 64px;
+margin-left: 0;
+}
+
+.comand-img {
+  border-radius: 10px;
+}
+
+.comand-link {
+  border-radius: 14px;
+background: var(--accent-color);
+}
+
+.comand-link:nth-child(3) {
+  margin-right: 32px;
+  margin-left: 32px;
+}
+
+.comand-title {
+  color: var(--text-color);
+text-align: center;
+font-size: 30px;
+font-weight: 300;
+line-height: normal;
+margin-top: 39px;
+margin-bottom: 4px;
+}
+
+.comand-text {
+  color: var(--text-color);
+text-align: center;
+font-size: 26px;
+font-weight: 300;
+line-height: normal;
+margin-top: 14px;
+width: 396px;
+margin-right: auto;
+margin-left: auto;
+}
+
+.cur {
+margin-bottom: 63px;
+}
+
+.cap {
+margin-bottom: 63px;
+}
+
+.textt {
+  margin-bottom: 41px;
+}
+
+.button-img {
   background-color: var(--background-color);
 }

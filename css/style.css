@@ -15,7 +15,6 @@
   padding-right: 10px;
   padding-left: 10px;
   margin: 0 auto;
-  /* outline: 1px solid red ; */
 }
 
 img {
@@ -48,25 +47,26 @@ body {
 /* Хедер */
 
 .header{
+  padding-top: 40px;
   background: var(--background-color);
   background-image: url(../img/giraf.png), url(../img/fons.png);
   background-repeat: no-repeat, no-repeat;
-  background-position: 1260px -34px, 1006px -44px;
-  background-size: 539px 771px, 952px 1350px;
+  background-position: 1266px 204px, 1006px -116px ;
+  background-size: 539px 771px, 1097px 1312px;
+  
 }
 
 .box {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 40px;
-  padding-bottom: 14px;
 }
 
 .nav-list {
   display: flex;
   gap: 13px;
-  margin-right: 524px;
+  margin-right: 362px;
+  width: 1158px;
 }
 
 .nav-item {
@@ -74,33 +74,31 @@ body {
   font-size: 26px;
   font-weight: 300;
   line-height: normal;
-  padding: 10px;
+  padding: 14px 10px;
 }
 
 .header-list {
   display: flex;
   gap: 24px;
+  width: 172px;
 }
 
 .line {
   width: 1921px;
   height: 1px;
   background-color: var(--accent-color);
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 14px;
+  margin-bottom: 154px;
 }
-
-.hero-box {
-    padding-top: 144px;
-    padding-bottom: 326px;
-}
-
 
 .hero-title {
   color: var(--text-color);
 font-size: 90px;
 font-weight: 600;
 line-height: normal;
-margin-top: 154px;
-margin-bottom: 30px;
+margin-bottom: 24px;
 }
 
 
@@ -110,7 +108,7 @@ font-family: "Bookman Old Style";
 font-size: 50px;
 font-weight: 300;
 line-height: 130%; 
-margin-bottom: 95px;
+margin-bottom: 91px;
 }
 
 .hero-button {
@@ -124,6 +122,7 @@ line-height: normal;
   border: 3px solid var(--accent-color);
   width: 403px;
   height: 71px;
+  margin-bottom: 326px;
 }
 
 /* Секція про нас  */
@@ -547,6 +546,11 @@ margin-bottom: 63px;
   margin-bottom: 41px;
 }
 
+.button-item {
+  padding: 0;
+  border: 0;
+}
+
 .button-img {
   background-color: var(--background-color);
 }
@@ -626,6 +630,10 @@ margin-bottom: 13px;
 font-size: 26px;
 font-weight: 300;
 line-height: normal;
+}
+
+.giraffe-img {
+  background-color: var(--accent-color);
 }
 
 /* Футер */

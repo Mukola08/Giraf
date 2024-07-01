@@ -262,13 +262,20 @@
       <!-- Секція відгуки -->
       <section class="reviews">
         <div class="container">
-        <p id="reviews" class="reviews-text-id">Відгуки</p>
-        <h2 class="reviews-speak">Що кажуть про нас</h2>
+          <div class="reviews-box">
+          <p id="reviews" class="reviews-text-id">Відгуки</p>
+          <h2 class="reviews-speak">Що кажуть про нас</h2>
+        </div>
         <ul class="reviews-list">
+          <li class="giraffe-link">
+            <button  type="button" class="giraffe-button" >
+          <img src="./img/left-orang.png" alt="ліва кнопка" class="giraffe-img" />
+        </button>
+          </li>
           <li class="reviews-link">
             <h3 class="reviews-title">Ольга Березовська</h3>
             <p class="reviews-text">приватний нотаріус м.Кропивницький</p>
-            <img src="./images/giraf.png" alt="giraf" class="reviews-img">
+            <div class="rev-line"></div>
             <p class="reviews-description">
               Високий рівень викладання – викладачі прекрасні, професіонали
               своєї справи. Звернулися до Ольги до Жирафа Клаба за
@@ -278,16 +285,9 @@
               сертифікат у дочки. Рекомендую.
             </p>
           </li>
-        </ul>
-        <ul class="giraffe-list">
           <li class="giraffe-link">
             <button  type="button" class="giraffe-button" >
-          <img src="./img/Frame 146 (2).png" alt="ліва кнопка" class="giraffe-img" />
-        </button>
-          </li>
-          <li class="giraffe-link">
-            <button  type="button" class="giraffe-button" >
-          <img src="./images/button-right.jpg" alt="права кнопка" class="giraffe-img" />
+          <img src="./img/right-orang.png" alt="права кнопка" class="giraffe-img" />
         </button>
           </li>
         </ul>
@@ -295,7 +295,7 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="container">
+      <div class="container footer-box">
       <a href="./index.html" class="giraffe-item">Giraffe Club</a>
       <address class="footer-address">
         <ul class="footer-list">
@@ -312,11 +312,13 @@
             <a href="https://www.google.com/maps/place/%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F+%D0%A1%D0%BE%D0%B1%D0%BE%D1%80%D0%BD%D0%B0,+1%D0%B0,+%D0%9A%D1%80%D0%BE%D0%BF%D0%B8%D0%B2%D0%BD%D0%B8%D1%86%D1%8C%D0%BA%D0%B8%D0%B9,+%D0%9A%D1%96%D1%80%D0%BE%D0%B2%D0%BE%D0%B3%D1%80%D0%B0%D0%B4%D1%81%D1%8C%D0%BA%D0%B0+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+25001/@48.5018687,32.2554173,16z/data=!4m6!3m5!1s0x40d042a2f19aab5d:0x3f0e37b3fbf83e28!8m2!3d48.5017372!4d32.2557499!16s%2Fg%2F11p02fthc8?entry=ttu" class="footer-item">м. Кропивницький, вул. Соборна, 1а</a>
           </li>
         </ul>
-      </address>
-      <p class="network-text">Соціальні мережі:</p>
+      </address> 
       <ul class="network-list">
-        <li class="network-link"><a href="https://www.facebook.com/?locale=uk_UA" target="_blank" class="network-item"><img src="./images/facebook.jpg" alt="facebook" class="network-img"></a></li>
-        <li class="network-link"><a href="https://www.instagram.com/" target="_blank" class="network-item"><img src="./images/instagram.jpg" alt="Instagram" class="network-img"></a></li>
+        <li class="network-link"> <h4 class="network-text">Соціальні мережі:</h4> </li>
+        <div class="footer-div">
+        <li class="network-link"><a href="https://www.facebook.com/?locale=uk_UA" target="_blank" class="network-item"><img src="./img/facebook.jpg" alt="facebook" class="network-img"></a></li>
+        <li class="network-link"><a href="https://www.instagram.com/" target="_blank" class="network-item"><img src="./img/instagram.jpg" alt="Instagram" class="network-img"></a></li>
+        </div>
       </ul>
       </div>
     </footer>

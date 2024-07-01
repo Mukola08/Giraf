@@ -48,11 +48,12 @@ body {
 
 .header{
   padding-top: 40px;
+  padding-bottom: 326px;
   background: var(--background-color);
   background-image: url(../img/giraf.png), url(../img/fons.png);
   background-repeat: no-repeat, no-repeat;
   background-position: 1266px 204px, 1006px -116px ;
-  background-size: 539px 771px, 1097px 1312px;
+  background-size: 539px 761px, 1312px 1312px;
   
 }
 
@@ -122,7 +123,6 @@ line-height: normal;
   border: 3px solid var(--accent-color);
   width: 403px;
   height: 71px;
-  margin-bottom: 326px;
 }
 
 /* Секція про нас  */
@@ -348,6 +348,8 @@ margin-bottom: 64px;
     gap: 105px;
 }
 
+/* Навчання */
+
 .leard-desk {
 color: var(--text-color);
 font-size: 26px;
@@ -455,6 +457,7 @@ margin-bottom: 48px;
 }
 /* Команда */
 .comand {
+  background-color: var(--background-color);
   padding-top: 112px;
   padding-bottom: 120px;
   text-align: center;
@@ -640,6 +643,7 @@ line-height: normal;
 .footer {
   padding-top: 112px;
   padding-bottom: 121px;
+  background-color: var(--background-color);
 }
 
 .footer-box {
